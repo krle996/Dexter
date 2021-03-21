@@ -1,0 +1,487 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigacioni meni */
+.navbar{
+    margin: 0px;
+}
+li:hover{
+    margin: -1px;
+    border: 1px solid rgb(252, 0, 0);
+    border-radius: 5px;
+}
+#logo{
+    width: 100px;
+    height: 50px;
+}
+/* Pozadina sajta */
+body{
+    background-image: url(images/blood1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* ------------------------Pocetna strana-------------------------- */
+#d1{
+    width: 73.2%;
+    margin: auto;
+    margin-top: 0px;
+}
+#pozadina{
+    width: 100%;
+    height: 400px;
+}
+#d2{
+    width: 73.2%;
+    opacity: 0.9;
+    margin: auto;
+    margin-top: 0px;
+    background-color:  rgb(128, 0, 0);
+    padding: 10px;
+}
+#rad{
+    width: 36%;
+    opacity: 0.9;
+    background-color:  rgb(128, 0, 0);
+    float: left;
+    margin-left: 13.4%;
+    margin-top: 1.2%;
+    margin-bottom: 1.2%;
+    position: relative;
+    padding: 10px;
+    
+}
+#s0{
+    width: 36%;
+    opacity: 0.9;
+    background-color:  rgb(128, 0, 0);
+    float: left;
+    margin-left: 1.2%;
+    margin-right: 13.4%;
+    margin-top: 1.2%;
+    margin-bottom: 1.2%;
+    padding: 10px;
+}
+#glikovi{
+    width: 73.2%;
+    opacity: 0.9;
+    margin-left: 13.4%;
+    background-color: rgb(128, 0, 0);
+    clear: both;
+    height: 673px;
+    padding: 10px;
+   
+}
+.likovi{
+    width: 20%;
+    float: left;
+    height: 300px;
+    background-color: rgb(54, 212, 54);
+    border: 10px solid gray;
+    
+}
+.l{
+    width: 100%;
+    height: 250px;
+}
+.likovi:hover{
+    opacity: 0.5;
+    }
+/* Paragraf i naslov svakog artikla */
+#p1{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-family:  'Lucida Sans';
+text-align: justify;
+}
+.p2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-family:  'Lucida Sans';
+}
+#h1{
+    color: white;
+    font-size: 22px;
+    font-family: 'Lucida Sans';
+}
+#h2{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+/* ---------------------------------Radnja----------------------------------- */
+#d3{
+    width: 73.2%;
+    opacity: 0.9;
+    margin: auto;
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+}
+/* Div za pustanje trejlera */
+#trailer{
+    width: 73.2%;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    background-color: rgb(37, 37, 240);
+    opacity: 0.9;
+    color: white;
+    cursor: pointer;
+}
+/* Div trejlera */
+#clip{
+    width: 73.2%;
+    margin: auto;
+    display: none;
+}
+/* Div za sliku ispod trejlera */
+#cs{
+    width: 73.2%;
+    margin: auto;
+    height: 358px;
+}
+/* Slika ispod trejlera */
+#crime{
+    width: 100%;
+    height: 358px;
+}
+/* -------------------------------Sezona 1---------------------------- */
+#d4{
+    width: 73.2%;
+    opacity: 0.9;
+    margin: auto;
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+}
+/* Slika sezone */
+#ses1{
+    width: 300px;
+    height: 400px;
+    float: right;
+    border: 10px solid rgb(37, 37, 240);
+    margin-top: -10px;
+    margin-right: -10px;
+}
+/* -------------------------------Sezona 2---------------------------- */
+#d5{
+    width: 73.2%;
+    opacity: 0.9;
+    margin: auto;
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+}
+/* Slika sezone */
+#ses2{
+    width: 300px;
+    height: 400px;
+    float: right;
+    border: 10px solid rgb(37, 37, 240);
+    margin-top: -10px;
+    margin-right: -10px;
+}
+/* -------------------------------Sezona 3---------------------------- */
+#d6{
+    width: 73.2%;
+    opacity: 0.9;
+    margin: auto;
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+}
+/* Slika sezone */
+#ses3{
+    width: 300px;
+    height: 400px;
+    float: right;
+    border: 10px solid rgb(37, 37, 240);
+    margin-top: -10px;
+    margin-right: -10px;
+}
+/* -------------------------------Sezona 4---------------------------- */
+#d7{
+    width: 73.2%;
+    opacity: 0.9;
+    margin: auto;
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+}
+/* Slika sezone */
+#ses4{
+    width: 300px;
+    height: 400px;
+    float: right;
+    border: 10px solid rgb(37, 37, 240);
+    margin-top: -10px;
+    margin-right: -10px;
+}
+/* -------------------------------Sezona 5---------------------------- */
+#d8{
+    width: 73.2%;
+    opacity: 0.9;
+    margin: auto;
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+}
+/* Slika sezone */
+#ses5{
+    width: 300px;
+    height: 400px;
+    float: right;
+    border: 10px solid rgb(37, 37, 240);
+    margin-top: -10px;
+    margin-right: -10px;
+}
+/* -------------------------------Sezona 6---------------------------- */
+#d9{
+    width: 73.2%;
+    opacity: 0.9;
+    margin: auto;
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+}
+/* Slika sezone */
+#ses6{
+    width: 300px;
+    height: 400px;
+    float: right;
+    border: 10px solid rgb(37, 37, 240);
+    margin-top: -10px;
+    margin-right: -10px;
+}
+/* -------------------------------Sezona 7---------------------------- */
+#d10{
+    width: 73.2%;
+    opacity: 0.9;
+    margin: auto;
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+}
+/* Slika sezone */
+#ses7{
+    width: 300px;
+    height: 400px;
+    float: right;
+    border: 10px solid rgb(37, 37, 240);
+    margin-top: -10px;
+    margin-right: -10px;
+}
+/* -------------------------------Sezona 8---------------------------- */
+#d11{
+    width: 73.2%;
+    opacity: 0.9;
+    margin: auto;
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+}
+/* Slika sezone */
+#ses8{
+    width: 300px;
+    height: 400px;
+    float: right;
+    border: 10px solid rgb(37, 37, 240);
+    margin-top: -10px;
+    margin-right: -10px;
+}
+/* Likovi: Dekster Morgan */
+#d12{
+    width: 73.2%;
+    margin: auto;
+    background-color: rgb(128, 0, 0);
+}
+.gl1{
+    width: 660px;
+    height:400px;
+    border: 10px double rgb(37, 37, 240);
+}
+.slider{
+    width: 73.2%;
+    margin: auto;
+    background-color: rgb(147, 148, 146);
+    margin-top: -20px;
+}
+/* ------------------------------Responsive za tablet------------------------- */
+@media screen and (max-width:720px) {
+#p1{
+    font-size: 13px;
+}
+#h1{
+    font-size: 19px;
+}
+#h2{
+    font-size: 19px;
+}
+.p2{
+    font-size: 10px;
+}
+/* -------------------------------Sezona 1---------------------------- */
+#ses1{
+    width: 200px;
+    height: 300px;
+}
+/* -------------------------------Sezona 2---------------------------- */
+#ses2{
+    width: 200px;
+    height: 300px;
+}
+/* -------------------------------Sezona 3---------------------------- */
+#ses3{
+    width: 200px;
+    height: 300px;
+}
+/* -------------------------------Sezona 4---------------------------- */
+#ses4{
+    width: 200px;
+    height: 300px;
+}
+/* -------------------------------Sezona 5---------------------------- */
+#ses5{
+    width: 200px;
+    height: 300px;
+}
+/* -------------------------------Sezona 6---------------------------- */
+#ses6{
+    width: 200px;
+    height: 300px;
+}
+/* -------------------------------Sezona 7---------------------------- */
+#ses7{
+    width: 200px;
+    height: 300px;
+}
+/* -------------------------------Sezona 8---------------------------- */
+#ses8{
+    width: 200px;
+    height: 300px;
+}
+}
+/* Responsive za telefon */
+@media screen and (max-width:480px) {
+    #h1{
+        font-size: 19px;
+        text-align: center;
+    }
+    #h2{
+        font-size: 19px;
+        text-align: center;
+    }
+    /* -------------------------------Pocetna---------------------------- */
+    #d1{
+        width: 100%;
+    }
+    #d2{
+        width: 100%;
+        margin-bottom: 1.2%;
+    }
+    #rad{
+        width: 100%;
+        margin-left: 0px;
+    }
+    #s0{
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 2.4%;
+    }
+    #glikovi{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .likovi{
+        width: 100%;  
+        height: 400px;
+    }
+    .l{
+        width: 100%;
+        height: 350px;
+    }
+    /* -------------------------------Radnja---------------------------- */
+    #d3{
+        width: 100%;
+    }
+    #trailer{
+        width: 100%;
+    }
+    #cs{
+        width: 100%;
+        height: 200px;
+    }
+    #clip{
+        width: 100%;
+    }
+    /* -------------------------------Sezona 1---------------------------- */
+    #d4{
+        width: 100%;
+    }
+    #ses1{
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+       
+    }
+    /* -------------------------------Sezona 2---------------------------- */
+    #d5{
+        width: 100%;
+    }
+    #ses2{
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+    }
+    /* -------------------------------Sezona 3---------------------------- */
+    #d6{
+        width: 100%;
+    }
+    #ses3{
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+    }
+    /* -------------------------------Sezona 4---------------------------- */
+    #d7{
+        width: 100%;
+    }
+    #ses4{
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+    }
+    /* -------------------------------Sezona 5---------------------------- */
+    #d8{
+        width: 100%;
+    }
+    #ses5{
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+    }
+    /* -------------------------------Sezona 6---------------------------- */
+    #d9{
+        width: 100%;
+    }
+    #ses6{
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+    }
+    /* -------------------------------Sezona 7---------------------------- */
+    #d10{
+        width: 100%;
+    }
+    #ses7{
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+    }
+    /* -------------------------------Sezona 8---------------------------- */
+    #d11{
+        width: 100%;
+    }
+    #ses8{
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+    }
+    }
+    
+
